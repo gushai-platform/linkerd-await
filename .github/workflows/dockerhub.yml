@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       REGISTRY: gushcloud/
-      CONTAINER_NAME: linkerd-await
+      CONTAINER_NAME: linkerd-await-postgres-ready
 
     steps:
      - name: Checkout code
