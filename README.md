@@ -2,3 +2,8 @@
 
 # Linkerd await
 Linkerd await for init containers in Kubernetes. Docker released based on: https://github.com/linkerd/linkerd-await
+
+# Docker build
+```
+docker build -f Dockerfile -t local/linkerd-await .
+```
